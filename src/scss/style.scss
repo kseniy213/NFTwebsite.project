@@ -1,0 +1,23 @@
+@import '/src/scss/components/background';
+@import '/src/scss/components/copyright';
+@import '/src/scss/components/form';
+@import '/src/scss/components/logo';
+
+
+
+*{
+    box-sizing: border-box
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &._center{
+        justify-content: center;
+        gap: 2px;
+    }
+}
+
+@import '/src/scss/pages/app';

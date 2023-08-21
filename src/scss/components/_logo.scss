@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    align-items: center;
+   
+
+
+    &__text{
+        margin-left: 12px;
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.16px;
+    }
+}
